@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="PTLive" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +17,79 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REO-PQ-0zl" userLabel="TabBar">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1F7-MO-apT" userLabel="BackButton">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="6y5-8A-rHK"/>
+                                            <constraint firstAttribute="height" constant="30" id="p3p-kC-thM"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="btnBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBG-pu-Cza"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.14617917280000001" blue="0.056350391110000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="1F7-MO-apT" firstAttribute="top" secondItem="REO-PQ-0zl" secondAttribute="top" constant="12" id="FHT-wT-EIR"/>
+                                    <constraint firstAttribute="bottom" secondItem="1F7-MO-apT" secondAttribute="bottom" constant="13" id="sQf-Qs-gdL"/>
+                                    <constraint firstAttribute="height" constant="55" id="xlY-BT-DFI"/>
+                                    <constraint firstItem="1F7-MO-apT" firstAttribute="leading" secondItem="REO-PQ-0zl" secondAttribute="leading" constant="8" id="xq9-qi-rtG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="REO-PQ-0zl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6oD-Yp-1O3"/>
+                            <constraint firstItem="REO-PQ-0zl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UpH-cn-Kem"/>
+                            <constraint firstAttribute="trailing" secondItem="REO-PQ-0zl" secondAttribute="trailing" id="hep-jE-PK3"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-184.05797101449278" y="121.46739130434784"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="Mlq-EI-2Xi">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" id="4Hu-hP-FR8" customClass="MenuViewController" customModule="PTLive" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KaX-yU-dDu"/>
+                        <viewControllerLayoutGuide type="bottom" id="I37-OR-6NY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YSf-nR-och">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaw-Kf-wu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="121"/>
+        </scene>
+        <!--LiveTV View Controller-->
+        <scene sceneID="U1g-Sv-gn8">
+            <objects>
+                <viewController storyboardIdentifier="Testview" id="RHu-og-S1w" customClass="LiveTVViewController" customModule="PTLive" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Aqt-2c-64A"/>
+                        <viewControllerLayoutGuide type="bottom" id="hXE-py-Xbu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iNt-qA-UAd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYu-0F-rsX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="121"/>
         </scene>
     </scenes>
 </document>

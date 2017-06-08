@@ -7,4 +7,6 @@ target 'PTLive' do
 
   # Pods for PTLive
 
+pod 'SlideMenuControllerSwift'
+
 end

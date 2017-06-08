@@ -13,6 +13,8 @@
 		537B60721EE9C6C100D05B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537B60701EE9C6C100D05B51 /* Main.storyboard */; };
 		537B60741EE9C6C100D05B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537B60731EE9C6C100D05B51 /* Assets.xcassets */; };
 		537B60771EE9C6C100D05B51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537B60751EE9C6C100D05B51 /* LaunchScreen.storyboard */; };
+		537B607F1EE9D61B00D05B51 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B607E1EE9D61B00D05B51 /* MenuViewController.swift */; };
+		537B60811EE9DBF200D05B51 /* LiveTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B60801EE9DBF200D05B51 /* LiveTVViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		537B60731EE9C6C100D05B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537B60761EE9C6C100D05B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537B60781EE9C6C100D05B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537B607E1EE9D61B00D05B51 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		537B60801EE9DBF200D05B51 /* LiveTVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTVViewController.swift; sourceTree = "<group>"; };
 		64B00EF0CA65BBE4B87DFF31 /* Pods_PTLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A531E82D13FF27FBEB40CA /* Pods-PTLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTLive/Pods-PTLive.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +67,8 @@
 			children = (
 				537B606C1EE9C6C100D05B51 /* AppDelegate.swift */,
 				537B606E1EE9C6C100D05B51 /* ViewController.swift */,
+				537B607E1EE9D61B00D05B51 /* MenuViewController.swift */,
+				537B60801EE9DBF200D05B51 /* LiveTVViewController.swift */,
 				537B60701EE9C6C100D05B51 /* Main.storyboard */,
 				537B60731EE9C6C100D05B51 /* Assets.xcassets */,
 				537B60751EE9C6C100D05B51 /* LaunchScreen.storyboard */,
@@ -212,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				537B606F1EE9C6C100D05B51 /* ViewController.swift in Sources */,
+				537B607F1EE9D61B00D05B51 /* MenuViewController.swift in Sources */,
+				537B60811EE9DBF200D05B51 /* LiveTVViewController.swift in Sources */,
 				537B606D1EE9C6C100D05B51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +384,7 @@
 				537B607D1EE9C6C100D05B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,39 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		619868C3E6C70D34B5C0CC4F8682C645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B3955B8A9B36C2CE219428A24E08D9A8 /* Pods-PTLive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D9FC69020EB1E997C0409F5B876B15 /* Pods-PTLive-dummy.m */; };
-		C345FF3FB0C41660E344A8760063D7EE /* Pods-PTLive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FFDA656AF0F42DB00AA2310F6253B7 /* Pods-PTLive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C1705508E7D310DF8165784DB9ACD64 /* Pods-PTLive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FFDA656AF0F42DB00AA2310F6253B7 /* Pods-PTLive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A705A18AE53520D10FD12FB8D8A2271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		83988C1F602F02B4D80C25ED3C701378 /* Pods-PTLive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D9FC69020EB1E997C0409F5B876B15 /* Pods-PTLive-dummy.m */; };
+		9E77A56AFEE5A5CB735C8CDCD219211A /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2E479D1C35C275A2F803A0FE06B17D /* SlideMenuControllerSwift-dummy.m */; };
+		B0365A790ABDBF8FD590742FC4005952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D639FFB357BC7FDA7CB35E15C54F5F99 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D26334D8CD6631080990206F7F1B5DB8 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9FD3F7B8FE58C59D58C6162C94DAE68 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		708A03113E7288FF12000142EFE2D9B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7785D2B50C54BA47C4680EDE503591;
+			remoteInfo = SlideMenuControllerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0880A99B4ED199AB11F733FFFEB045D4 /* Pods_PTLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PTLive.framework; path = "Pods-PTLive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13920BA9A34B7B80F4D4D54C405722C0 /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
 		1A7FEE5829D7AA9185D60BF68C916BE7 /* Pods-PTLive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PTLive.modulemap"; sourceTree = "<group>"; };
 		29AB9F79FB79AD90752099D8DBE14B07 /* Pods-PTLive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PTLive-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AB394E0B1092145830E786787C3A742 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B685E76D1CF794712E58A4406745846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A58569DBCDD0342BEA28E43BE2A7E2D /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
 		68CF752D82D6D6CE8751546DA6849708 /* Pods-PTLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PTLive.release.xcconfig"; sourceTree = "<group>"; };
+		76A44496167FCC194C2BE990B84480AF /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
 		8D562EB80C91BB5B22348B43E6025695 /* Pods-PTLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PTLive.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F289EE93581655399BE3B6E7BF8223E /* Pods-PTLive-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PTLive-frameworks.sh"; sourceTree = "<group>"; };
 		A4FFDA656AF0F42DB00AA2310F6253B7 /* Pods-PTLive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PTLive-umbrella.h"; sourceTree = "<group>"; };
 		ADED6066367D83C6223DF21374D94FA1 /* Pods-PTLive-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PTLive-resources.sh"; sourceTree = "<group>"; };
+		BE2E479D1C35C275A2F803A0FE06B17D /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		BE40BC1FB383B829B02D3748C83FED08 /* Pods_PTLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PTLive.framework; path = "Pods-PTLive.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51B6E02517EAB1ADA98D6D326E29FC2 /* Pods-PTLive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PTLive-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D26334D8CD6631080990206F7F1B5DB8 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		DB3DC21A6851AD777BAA8683B3BE27B3 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
 		E6D9FC69020EB1E997C0409F5B876B15 /* Pods-PTLive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PTLive-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E240B17AAABCECD4C60E114CFA46A641 /* Frameworks */ = {
+		057C948AA7DEF469A233291333A3157B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619868C3E6C70D34B5C0CC4F8682C645 /* Foundation.framework in Frameworks */,
+				7A705A18AE53520D10FD12FB8D8A2271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F760A5BDF3F22F15D26ACCFD65704F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0365A790ABDBF8FD590742FC4005952 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5B9E4D131BE6BB64CE542A0B1B157F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB394E0B1092145830E786787C3A742 /* Info.plist */,
+				DB3DC21A6851AD777BAA8683B3BE27B3 /* SlideMenuControllerSwift.modulemap */,
+				13920BA9A34B7B80F4D4D54C405722C0 /* SlideMenuControllerSwift.xcconfig */,
+				BE2E479D1C35C275A2F803A0FE06B17D /* SlideMenuControllerSwift-dummy.m */,
+				4A58569DBCDD0342BEA28E43BE2A7E2D /* SlideMenuControllerSwift-prefix.pch */,
+				D26334D8CD6631080990206F7F1B5DB8 /* SlideMenuControllerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
+			sourceTree = "<group>";
+		};
 		3EF2035B46088CE8461D8328C0ED2313 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,22 +100,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		790C6657361277EA4001655A408366B9 /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8110A20D864C22E8570DA40FEABB3839 /* SlideMenuController.swift */,
+				3C5B9E4D131BE6BB64CE542A0B1B157F /* Support Files */,
+			);
+			name = SlideMenuControllerSwift;
+			path = SlideMenuControllerSwift;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BBF8D6CF6C2BDECDD80239AB912782A8 /* Products */,
+				CA428321F8257CD374B594CA29A4C7DF /* Pods */,
+				BDE06FE55B640C487EF8AD30EA8E49D0 /* Products */,
 				3EF2035B46088CE8461D8328C0ED2313 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		BBF8D6CF6C2BDECDD80239AB912782A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0880A99B4ED199AB11F733FFFEB045D4 /* Pods_PTLive.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -80,6 +127,23 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE06FE55B640C487EF8AD30EA8E49D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE40BC1FB383B829B02D3748C83FED08 /* Pods_PTLive.framework */,
+				76A44496167FCC194C2BE990B84480AF /* SlideMenuControllerSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA428321F8257CD374B594CA29A4C7DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790C6657361277EA4001655A408366B9 /* SlideMenuControllerSwift */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DCAEC70CDCFD67277B17C71CB3B948D1 /* Pods-PTLive */ = {
@@ -103,32 +167,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3C365C7AC286F8D1B5723535E24CE9F7 /* Headers */ = {
+		47492C484E1EEF4E5E72FC66E157A6D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C345FF3FB0C41660E344A8760063D7EE /* Pods-PTLive-umbrella.h in Headers */,
+				2C1705508E7D310DF8165784DB9ACD64 /* Pods-PTLive-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3D73A5738E8AAE3F811D7272C7F07DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D639FFB357BC7FDA7CB35E15C54F5F99 /* SlideMenuControllerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		07D98201E63F4C9738EFBA3C59FEEB80 /* Pods-PTLive */ = {
+		3137E04248E2308773E15110E3E7C188 /* Pods-PTLive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BB2CFB7E29B417CC46F096FEEAA7819 /* Build configuration list for PBXNativeTarget "Pods-PTLive" */;
+			buildConfigurationList = 93E02A9D08FD96364A7C5A8C937DC06F /* Build configuration list for PBXNativeTarget "Pods-PTLive" */;
 			buildPhases = (
-				8A09C8FB4C7E8BDA9FFED9E497E308B0 /* Sources */,
-				E240B17AAABCECD4C60E114CFA46A641 /* Frameworks */,
-				3C365C7AC286F8D1B5723535E24CE9F7 /* Headers */,
+				B7EE3C8DA8F44503680C0FE2378D1B92 /* Sources */,
+				057C948AA7DEF469A233291333A3157B /* Frameworks */,
+				47492C484E1EEF4E5E72FC66E157A6D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F589DBC11EAFCBCC0AE848BC5F93345 /* PBXTargetDependency */,
+			);
+			name = "Pods-PTLive";
+			productName = "Pods-PTLive";
+			productReference = BE40BC1FB383B829B02D3748C83FED08 /* Pods_PTLive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC7785D2B50C54BA47C4680EDE503591 /* SlideMenuControllerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F180C77DD14F3B63F26B1938DF90AC97 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */;
+			buildPhases = (
+				D4BBAEE5ECA0A98ECBC6DA64A76115C7 /* Sources */,
+				4F760A5BDF3F22F15D26ACCFD65704F9 /* Frameworks */,
+				E3D73A5738E8AAE3F811D7272C7F07DA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-PTLive";
-			productName = "Pods-PTLive";
-			productReference = 0880A99B4ED199AB11F733FFFEB045D4 /* Pods_PTLive.framework */;
+			name = SlideMenuControllerSwift;
+			productName = SlideMenuControllerSwift;
+			productReference = 76A44496167FCC194C2BE990B84480AF /* SlideMenuControllerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,25 +238,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BBF8D6CF6C2BDECDD80239AB912782A8 /* Products */;
+			productRefGroup = BDE06FE55B640C487EF8AD30EA8E49D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07D98201E63F4C9738EFBA3C59FEEB80 /* Pods-PTLive */,
+				3137E04248E2308773E15110E3E7C188 /* Pods-PTLive */,
+				DC7785D2B50C54BA47C4680EDE503591 /* SlideMenuControllerSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A09C8FB4C7E8BDA9FFED9E497E308B0 /* Sources */ = {
+		B7EE3C8DA8F44503680C0FE2378D1B92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3955B8A9B36C2CE219428A24E08D9A8 /* Pods-PTLive-dummy.m in Sources */,
+				83988C1F602F02B4D80C25ED3C701378 /* Pods-PTLive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BBAEE5ECA0A98ECBC6DA64A76115C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FD3F7B8FE58C59D58C6162C94DAE68 /* SlideMenuController.swift in Sources */,
+				9E77A56AFEE5A5CB735C8CDCD219211A /* SlideMenuControllerSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F589DBC11EAFCBCC0AE848BC5F93345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlideMenuControllerSwift;
+			target = DC7785D2B50C54BA47C4680EDE503591 /* SlideMenuControllerSwift */;
+			targetProxy = 708A03113E7288FF12000142EFE2D9B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
@@ -213,7 +322,107 @@
 			};
 			name = Debug;
 		};
-		C57C3B81473F461E8D3B1EC0D90FC97B /* Debug */ = {
+		22DE426D4E2D2C49E2DD4E52D07C5637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13920BA9A34B7B80F4D4D54C405722C0 /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43F757FB2D97D5DB3C5F6447BD191D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CF752D82D6D6CE8751546DA6849708 /* Pods-PTLive.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PTLive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PTLive/Pods-PTLive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PTLive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60948654D1990D6678180522C672473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13920BA9A34B7B80F4D4D54C405722C0 /* SlideMenuControllerSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4281E5BBF024DE9E683267A66BE24DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D562EB80C91BB5B22348B43E6025695 /* Pods-PTLive.debug.xcconfig */;
 			buildSettings = {
@@ -242,6 +451,7 @@
 				PRODUCT_NAME = Pods_PTLive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -288,41 +498,6 @@
 			};
 			name = Release;
 		};
-		ECBADD10FE1C0FA52D217ED02C1E0BF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68CF752D82D6D6CE8751546DA6849708 /* Pods-PTLive.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PTLive/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PTLive/Pods-PTLive.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PTLive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,11 +510,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BB2CFB7E29B417CC46F096FEEAA7819 /* Build configuration list for PBXNativeTarget "Pods-PTLive" */ = {
+		93E02A9D08FD96364A7C5A8C937DC06F /* Build configuration list for PBXNativeTarget "Pods-PTLive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C57C3B81473F461E8D3B1EC0D90FC97B /* Debug */,
-				ECBADD10FE1C0FA52D217ED02C1E0BF7 /* Release */,
+				A4281E5BBF024DE9E683267A66BE24DD /* Debug */,
+				43F757FB2D97D5DB3C5F6447BD191D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F180C77DD14F3B63F26B1938DF90AC97 /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60948654D1990D6678180522C672473F /* Debug */,
+				22DE426D4E2D2C49E2DD4E52D07C5637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
