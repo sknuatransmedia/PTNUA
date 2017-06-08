@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2100FA25ED42AF4AAB1E10E4 /* Pods_PTLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B00EF0CA65BBE4B87DFF31 /* Pods_PTLive.framework */; };
 		537B606D1EE9C6C100D05B51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B606C1EE9C6C100D05B51 /* AppDelegate.swift */; };
 		537B606F1EE9C6C100D05B51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537B606E1EE9C6C100D05B51 /* ViewController.swift */; };
 		537B60721EE9C6C100D05B51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537B60701EE9C6C100D05B51 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26D828AEE83309B87B086B39 /* Pods-PTLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTLive/Pods-PTLive.release.xcconfig"; sourceTree = "<group>"; };
 		537B60691EE9C6C100D05B51 /* PTLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537B606C1EE9C6C100D05B51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		537B606E1EE9C6C100D05B51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		537B60731EE9C6C100D05B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		537B60761EE9C6C100D05B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		537B60781EE9C6C100D05B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B00EF0CA65BBE4B87DFF31 /* Pods_PTLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A531E82D13FF27FBEB40CA /* Pods-PTLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTLive/Pods-PTLive.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2100FA25ED42AF4AAB1E10E4 /* Pods_PTLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				537B606B1EE9C6C100D05B51 /* PTLive */,
 				537B606A1EE9C6C100D05B51 /* Products */,
+				B858B2662F320AF323583F69 /* Pods */,
+				6BE20587093B78007CEBFE84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = PTLive;
 			sourceTree = "<group>";
 		};
+		6BE20587093B78007CEBFE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B00EF0CA65BBE4B87DFF31 /* Pods_PTLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B858B2662F320AF323583F69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75A531E82D13FF27FBEB40CA /* Pods-PTLive.debug.xcconfig */,
+				26D828AEE83309B87B086B39 /* Pods-PTLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 537B607B1EE9C6C100D05B51 /* Build configuration list for PBXNativeTarget "PTLive" */;
 			buildPhases = (
+				F0102148A70992C81F86948E /* [CP] Check Pods Manifest.lock */,
 				537B60651EE9C6C100D05B51 /* Sources */,
 				537B60661EE9C6C100D05B51 /* Frameworks */,
 				537B60671EE9C6C100D05B51 /* Resources */,
+				9774BA2B2AC8D1CEAE771FC0 /* [CP] Embed Pods Frameworks */,
+				EA5C31FCF1FC24F00A65C00A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9774BA2B2AC8D1CEAE771FC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTLive/Pods-PTLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5C31FCF1FC24F00A65C00A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTLive/Pods-PTLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0102148A70992C81F86948E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		537B60651EE9C6C100D05B51 /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		537B607C1EE9C6C100D05B51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A531E82D13FF27FBEB40CA /* Pods-PTLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PTLive/Info.plist;
@@ -270,6 +346,7 @@
 		};
 		537B607D1EE9C6C100D05B51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D828AEE83309B87B086B39 /* Pods-PTLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PTLive/Info.plist;
